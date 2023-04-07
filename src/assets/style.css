@@ -1,0 +1,94 @@
+* {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    box-shadow: none;
+}
+
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.order-summary {
+    max-width: 320px;
+    height: 490px;
+    margin: 70px auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+}
+
+.order-summary header img {
+    max-width: 320px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.order-summary header h1 {
+    font-size: 16px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding-top: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.order-summary p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.order-summary .plan {
+    background-color: hsl(230, 75%, 97%);
+    display: flex;
+    align-items: center;
+    margin: auto 32px;
+    border-radius: 8px;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.order-summary .plan img {
+    padding-left: 8px;
+}
+
+.order-summary .plan .plan_information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    line-height: 16px;
+}
+
+.order-summary .plan a {
+    padding-left: 40px;
+    padding-right: 8px;
+    color: hsl(245, 75%, 52%);
+}
+
+.order-summary .payment {
+    margin: auto 32px;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 0;
+    width: calc(100% - 64px);
+    margin-top: 16px;
+    box-shadow: 0px 10px 5px 0px hsl(225deg 100% 94%);
+    cursor: pointer;
+}
+
+.order-summary .cancel {
+    margin: auto 32px;
+    color: hsl(224, 23%, 55%);
+    border-radius: 8px;
+    padding: 8px 0;
+    width: calc(100% - 64px);
+    margin-top: 16px;
+    background-color: hsl(225, 100%, 98%);
+    cursor: pointer;
+}
